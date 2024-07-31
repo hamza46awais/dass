@@ -339,7 +339,7 @@
     height: 0.42105263em;
     background: var(--primary);
     opacity: 1;
-    bottom: 0.26315789em;
+    bottom: -0.26315789em;
     border-radius: 0.21052632em;
     left: -0.31578947em;
     right: -0.31578947em;
@@ -477,7 +477,7 @@
     border-radius: 0.15789474em;
     background: var(--primary);
     opacity: 1;
-    bottom: 0.10526316em;
+    bottom: -0.26315789em;
     z-index: -1;
     left: 0;
     width: 0%;
@@ -495,7 +495,7 @@
     height: 0.31578947em;
     background: var(--primary);
     opacity: 1;
-    bottom: 0.10526316em;
+    bottom: -0.26315789em;
     border-radius: 0.15789474em;
     left: 0em;
     right: -0.31578947em;

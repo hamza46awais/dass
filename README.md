@@ -1,15 +1,6 @@
-# Starter-KitV3
-This is the latest version of my starter kit that I will be using from now on to build all my websites. It has a completely remade responsive navigation that is much simpler, and easier to edit and customize.  
-
-
 # Switching between top drop down mobile and and side pop out mobile nav
 
 I built my mobile navs with a max-width media query so I can make any edits I want to them and not affect the desktop design.  This also allows me to swap in different code for different mobile styles and animations. There is a mobile-nav-options.css file that contains seperate code for top drop down and side pop out.  They're wrapped in a max-width: 1023px media query.  Just copy and paste the one you want to sue and it will change the mobile nav from a top drop down to a side pop out one.  No extra work needed!
-
-
-# Simplified dark mode system.  
-
-My previous one had a bunch of messy code that wasn't organized very well, so I simplified it and removed all the classes you don't need.  I abstracted the toggle code into it's own group and put the core styles in another labeled grouping.  I also added a new dark mode color palette that is much more modern and better on the eye and not as harsh as the straight blacks I was using before.
 
 
 # How to use the dark mode functionality
@@ -30,33 +21,6 @@ In the LESS file (dark.less), choose the screen size you want to target and insi
   http://koala-app.com/
 
   You can have it watch multiple .less files and multiple folders at once.  You just have to select each .less file individually and hit the compile button in the lower right.
-
-  INSTALL LESS
-
-  To install the LESS preprocessor, you first must download and install npm so you can install any program you want with one line of code:
-
-  https://nodejs.org/en/download/
-
-  Once that is downloaded and installed, download and install GIT terminal or just use your default terminal window on your computer
-
-  Download GIT
-  https://gitforwindows.org/
-
-  OR
-
-  Open the default terminal on your computer
-  https://www.ionos.com/help/email/troubleshooting-mail-basicmail-business/access-the-command-prompt-or-terminal/
-
-  Then open your GIT terminal or default computer terminal and copy and paste this in your terminal and hit enter to install LESS
-
-  npm install less
-
-  Now you have LESS on your machine!  Hopefully that wasn't too bad.  It was a little tricky for me to get started too but I used the resources I linked here to figure it out.
-
-
-
-
-  
   
   
 # CALCULATING THE EM UNITS
