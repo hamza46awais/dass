@@ -686,7 +686,8 @@
     display: block;
   }
   #footer .left-section p {
-    font-size: 0.875em;
+    font-size: 1em; 
+    /* XXX Changed font size for footer */
     line-height: 1.92857143;
     color: #fff;
     opacity: .9;
