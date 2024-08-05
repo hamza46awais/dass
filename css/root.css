@@ -4,9 +4,12 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: #FFBA19;
+    --primary: #61a6d4;
+    --primaryShade: #84b9d6;
+    --primaryDark: #548eb4;
+    /* --primary: #FFBA19;
     --primaryShade: #ffd675;
-    --primaryDark: #805d0d;
+    --primaryDark: #805d0d; */
     --bodyText: #1a1a1a;
   }
   /* roboto-regular - latin */
@@ -769,7 +772,8 @@
     display: block;
     height: 0.11111111em;
     width: 5.38888889em;
-    background: #EEBE76;
+    /* background: #EEBE76; */
+    background: #479ceb;
     opacity: 1;
     bottom: -0.88888889em;
     left: 0;
