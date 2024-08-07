@@ -1,0 +1,6 @@
+# Redirect www.dassandsons.com to dassandsons.com
+https://www.dassandsons.com/* https://dassandsons.com/:splat 301!
+
+# Redirect dassandsons.ltd and www.dassandsons.ltd to dassandsons.com
+https://dassandsons.ltd/* https://dassandsons.com/:splat 301!
+https://www.dassandsons.ltd/* https://dassandsons.com/:splat 301!
