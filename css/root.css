@@ -373,7 +373,6 @@
     background-color: #F5F5F5;
   }
   ::-webkit-scrollbar-thumb {
-    border-radius: 0.625em;
     background: var(--primary);
   }
   body.scroll #navigation .background-color-div {
