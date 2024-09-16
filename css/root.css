@@ -336,20 +336,14 @@
     position: relative;
     font-weight: bold;
   }
-  #navigation #navbar-menu ul li a.active:before {
-    content: '';
-    position: absolute;
-    display: block;
-    height: 0.12105263em;
-    background: var(--primary);
-    opacity: 1;
-    bottom: -0.26315789em;
-    left: -0.31578947em;
-    right: -0.31578947em;
-    z-index: -1;
+  #navigation #navbar-menu ul li a.active {
+    color: var(--primary);
   }
   #navigation #navbar-menu.open {
-    height: 19.125em;
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 1.25em;
     z-index: -100;
   }
