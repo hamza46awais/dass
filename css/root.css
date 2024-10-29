@@ -178,16 +178,21 @@
   #navigation .container {
     padding: 0.8125em 0;
     width: 96%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
   }
   #navigation .logo {
     display: inline-block;
-    height: 1.875em;
+    height: 2.875em;
     width: auto;
+    margin: 0 auto;
+    margin-bottom: -4px;
+    margin-top: -3px;
   }
   #navigation .logo img {
     width: auto;
     height: 100%;
-    margin-left: -10px;
   }
   #navigation .logo .light {
     display: none;
@@ -432,6 +437,7 @@
     margin-right: auto;
     height: 3.75em;
     width: auto;
+    margin-left: 30px;
   }
   #navigation .logo img {
     width: auto;
@@ -671,7 +677,7 @@
     display: inline-block;
     margin: auto;
     width: auto;
-    height: 3.125em;
+    height: 6.125em;
     margin-bottom: 1.875em;
     text-align: center;
   }
@@ -679,7 +685,6 @@
     width: auto;
     height: 100%;
     display: block;
-    margin-left: -30px;
   }
   #footer .left-section p {
     font-size: 1em; 
@@ -838,7 +843,7 @@
   #footer .left-section .logo {
     text-align: left;
     margin-left: 0;
-    height: 4.375em;
+    height: 8.375em;
   }
   #footer .left-section p {
     text-align: left;
